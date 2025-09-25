@@ -13,9 +13,8 @@ int main()
 
     cout << "Enter your username: ";
     getline(cin, username);
-    cout << "Enter your password: ";
-    cin >> password;
-        if (password == 123456)
+    
+    while (true)
             {
                 cout << "Welcome " << username << "!" << endl;
                 cout << "Bus routines are as follows: " << endl;
@@ -231,10 +230,5 @@ int main()
                 }
 
             }
-        else
-        {
-            cout << "Invalid password. Please try again." << endl;
-            return 0;
-        }
-
+      
 }
